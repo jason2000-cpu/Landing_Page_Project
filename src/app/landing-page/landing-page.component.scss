@@ -1,0 +1,43 @@
+$yellow: #FFF748;
+$purple: #3C1A5B;
+.container{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.designs img{
+  position: absolute;
+  margin-left: 0;
+  left: 0;
+  bottom: 0;
+  width: 50em;
+  height: 38em;
+
+}
+.promo-text {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+.designs h1 {
+  color: $yellow;
+  letter-spacing: 1rem;
+  font-family: 'Snap ITC';
+}
+.promo-text h1{
+  color:$yellow;
+  letter-spacing: .5rem;
+}
+.promo-text p{
+  font-size: 25px;
+  letter-spacing: .3em;
+  color:$yellow;
+  font-family: 'Snap ITC';
+}
+
+.promo-text img{
+  width: 8rem;
+  height: 10rem;
+  transform: rotate(-30deg);
+}
