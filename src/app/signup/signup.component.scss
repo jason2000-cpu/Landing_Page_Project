@@ -1,0 +1,98 @@
+$yellow: #FFF748;
+$purple: #3C1A5B;
+
+.container {
+  display: flex;
+  position: absolute;
+  margin-top: 7%;
+  top: 0;
+  left: 17%;
+
+}
+
+.left,.right {
+  padding: 40px 60px;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+.left {
+  background-color: white;
+}
+
+.right {
+  text-align: center;
+  background-color: $purple;
+  h1{
+    color:white;
+    font-family:'Cooper Black'
+  }
+
+  input {
+    margin: 2rem 2rem;
+    font-size: large;
+    display: block;
+    outline: 0 none;
+    border: none;
+    background-color:$purple;
+    border-bottom: 2px solid black;
+    font-family: sancreek;
+    color:azure;
+  }
+}
+
+
+.avatar {
+  width: 6rem;
+  height: 6rem;
+  margin-left: 6em;
+
+  img {
+    position: absolute;
+    top: 3rem;
+    left: 33rem;
+    width: 20%;
+    height: 30%;
+  }
+}
+
+
+#trouser{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 40%;
+}
+
+.text {
+  margin-top: 55%;
+
+  h1 {
+    letter-spacing: 5px;
+    font-size: 27px;
+    font-family: Ravie;
+  }
+
+  p {
+    text-align: center;
+    font-size: 24px;
+  }
+}
+
+#shoe {
+  position: absolute;
+  width: 30%;
+  height: 40%;
+  left: 0;
+  bottom: 0;
+  transform: rotate(-25deg);
+}
+
+button {
+  background-color: white;
+  color: $purple;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  font-family: 'Cooper Black';
+}

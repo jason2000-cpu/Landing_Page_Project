@@ -23,6 +23,11 @@ li {
     padding: 0px 100px 0px 70px;
     font-size: 20px;
     color: $yellow;
+    cursor: pointer;
+    transition:  color 2s;
+  }
 
+  li:hover{
+    color:white;
   }
 }
