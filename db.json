@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "jason2000-cpu",
+      "email": "jacksonmuturi2000@gmail.com",
+      "phoneNo": "+254797955092",
+      "password": "0000"
+    },
+    {
+      "id": 1,
+      "username": "jason2000-cpu",
+      "email": "jacksonmuturi2000@gmail.com",
+      "phoneNo": "+254797955092",
+      "password": "0000"
+    },
+    {
+      "id": 1,
+      "username": "jason2000-cpu",
+      "email": "jacksonmuturi2000@gmail.com",
+      "phoneNo": "+254797955092",
+      "password": "0000"
+    },
+    {
+      "id": 1,
+      "username": "jason2000-cpu",
+      "email": "jacksonmuturi2000@gmail.com",
+      "phoneNo": "+254797955092",
+      "password": "0000"
+    },
+    {
+      "username": "jackson",
+      "email": "Jasonmwangi2000@gmail.com",
+      "mobile": "0797955092",
+      "password": "123456789",
+      "id": 2
+    },
+    {
+      "username": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 3
+    }
+  ]
+}

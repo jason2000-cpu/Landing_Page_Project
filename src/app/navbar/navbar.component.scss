@@ -19,15 +19,18 @@ $purple: #3C1A5B;
   justify-content: space-between;
   margin: 6px;
 li {
-    display: inline-block;
-    padding: 0px 100px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 5px;
     font-size: 20px;
     color: $yellow;
     cursor: pointer;
-    transition:  color 2s;
+    transition:  color .5s font-weight 1s;
+
   }
 
   li:hover{
     color:white;
+    font-weight: bolder;
   }
 }

@@ -12,13 +12,13 @@
     <div class="avatar">
       <img src="../../assets/img/avatar.png" alt="">
     </div>
-    <div class="form">
-      <input type="text" name="username" required placeholder="username" required>
-      <input type="email" name="email" required placeholder="Email" required>
-      <input type="tel" name="phonNo" value="+254">
-      <input type="password" name="password" placeholder="Password" required>
+    <form class="form" [formGroup]="signupForm" (ngSubmit)="signup()">
+      <input   formControlName="username" type="text" name="username" required placeholder="username" required>
+      <input  formControlName="email" type="email" name="email" required placeholder="Email" required>
+      <input formControlName="mobile" type="tel" name="phonNo" value="+254">
+      <input formControlName="password" type="password" name="password" placeholder="Password" required>
       <button type="submit">SIGNUP</button>
-    </div>
+    </form>
 
 
   </div>

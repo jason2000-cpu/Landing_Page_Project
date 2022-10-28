@@ -10,6 +10,13 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TeamPageComponent } from './team-page/team-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -18,13 +25,16 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     LandingPageComponent,
     HomeComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    TeamPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

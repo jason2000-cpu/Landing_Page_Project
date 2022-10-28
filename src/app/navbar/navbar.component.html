@@ -3,11 +3,13 @@
     <div class="logo">LOGO</div>
     <div class="nav">
       <ul>
-        <li>Home</li>
+        <li routerLink="/home">Home</li>
         <li>About</li>
-        <li>Team</li>
-        <li (click)="Login()">Login</li>
+        <li routerLink="/contributors">Team</li>
+        <li  routerLink="/login">Login</li>
       </ul>
     </div>
   </div>
 </body>
+
+<router-outlet></router-outlet>
